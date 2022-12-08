@@ -166,7 +166,7 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
 CLOUDINARY_STORAGE = {
-    CLOUDINARY_URL: os.environ.get('CLOUDINARY_URL'),
+    'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL'),
 }
 
 # Default primary key field type
